@@ -5,6 +5,11 @@
   "dependencies": {
     "axios": "^0.18.0",
     "bootstrap": "^4.3.1",
+    "mlbboxscores": "^0.1.0",
+    "mlbgames": "^1.0.5",
+    "mlbplayers": "^1.1.0",
+    "mlbplays": "^2.2.2",
+    "node-mlb-api": "^0.0.2-6",
     "react": "^16.8.1",
     "react-bootstrap": "^1.0.0-beta.5",
     "react-dom": "^16.8.1",

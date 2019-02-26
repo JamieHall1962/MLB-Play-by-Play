@@ -1808,6 +1808,20 @@ boolbase@^1.0.0, boolbase@~1.0.0:
   resolved "https://registry.yarnpkg.com/boolbase/-/boolbase-1.0.0.tgz#68dff5fbe60c51eb37725ea9e3ed310dcc1e776e"
   integrity sha1-aN/1++YMUes3cl6p4+0xDcwed24=
 
+boom@2.x.x:
+  version "2.10.1"
+  resolved "https://registry.yarnpkg.com/boom/-/boom-2.10.1.tgz#39c8918ceff5799f83f9492a848f625add0c766f"
+  integrity sha1-OciRjO/1eZ+D+UkqhI9iWt0Mdm8=
+  dependencies:
+    hoek "2.x.x"
+
+boom@3.x.x:
+  version "3.2.2"
+  resolved "https://registry.yarnpkg.com/boom/-/boom-3.2.2.tgz#0f0cc5d04adc5003b8c7d71f42cca7271fef0e78"
+  integrity sha1-DwzF0ErcUAO4x9cfQsynJx/vDng=
+  dependencies:
+    hoek "4.x.x"
+
 bootstrap@^4.3.1:
   version "4.3.1"
   resolved "https://registry.yarnpkg.com/bootstrap/-/bootstrap-4.3.1.tgz#280ca8f610504d99d7b6b4bfc4b68cec601704ac"
@@ -4406,6 +4420,16 @@ hmac-drbg@^1.0.0:
     minimalistic-assert "^1.0.0"
     minimalistic-crypto-utils "^1.0.1"
 
+hoek@2.x.x:
+  version "2.16.3"
+  resolved "https://registry.yarnpkg.com/hoek/-/hoek-2.16.3.tgz#20bb7403d3cea398e91dc4710a8ff1b8274a25ed"
+  integrity sha1-ILt0A9POo5jpHcRxCo/xuCdKJe0=
+
+hoek@3.x.x:
+  version "3.0.4"
+  resolved "https://registry.yarnpkg.com/hoek/-/hoek-3.0.4.tgz#268adff66bb6695c69b4789a88b1e0847c3f3123"
+  integrity sha1-Jorf9mu2aVxptHiaiLHghHw/MSM=
+
 hoek@4.x.x:
   version "4.2.1"
   resolved "https://registry.yarnpkg.com/hoek/-/hoek-4.2.1.tgz#9634502aa12c445dd5a7c5734b572bb8738aacbb"
@@ -4741,6 +4765,16 @@ inquirer@^6.1.0:
     string-width "^2.1.0"
     strip-ansi "^5.0.0"
     through "^2.3.6"
+
+insync@1.x.x:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/insync/-/insync-1.0.0.tgz#448d62dc29473c73a53dca81bd60b615c12c27ce"
+  integrity sha1-RI1i3ClHPHOlPcqBvWC2FcEsJ84=
+
+insync@2.x.x:
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/insync/-/insync-2.1.1.tgz#22e26c61121303c06f51d35a3ccf6d8fc1e914c4"
+  integrity sha1-IuJsYRITA8BvUdNaPM9tj8HpFMQ=
 
 internal-ip@^3.0.1:
   version "3.0.1"
@@ -6271,6 +6305,43 @@ mkdirp@0.5.1, mkdirp@0.5.x, mkdirp@^0.5.0, mkdirp@^0.5.1, mkdirp@~0.5.0, mkdirp@
   dependencies:
     minimist "0.0.8"
 
+mlbboxscores@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/mlbboxscores/-/mlbboxscores-0.1.0.tgz#650f2c1e6ab44f226cbb55833bdc91fcc6f27913"
+  integrity sha1-ZQ8sHmq0TyJsu1WDO9yR/MbyeRM=
+  dependencies:
+    hoek "3.x.x"
+    insync "2.x.x"
+    wreck "7.x.x"
+
+mlbgames@^1.0.5:
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/mlbgames/-/mlbgames-1.0.5.tgz#d3dfd5908505fc28141d48d9d6ea929e70760986"
+  integrity sha1-09/VkIUF/CgUHUjZ1uqSnnB2CYY=
+  dependencies:
+    hoek "3.x.x"
+    insync "2.x.x"
+    wreck "7.x.x"
+
+mlbplayers@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/mlbplayers/-/mlbplayers-1.1.0.tgz#7c63c78a02afc0d3972fcc4bfe9df75858c11626"
+  integrity sha1-fGPHigKvwNOXL8xL/p33WFjBFiY=
+  dependencies:
+    hoek "2.x.x"
+    insync "1.x.x"
+    wreck "5.x.x"
+    xml2js "0.x.x"
+
+mlbplays@^2.2.2:
+  version "2.2.2"
+  resolved "https://registry.yarnpkg.com/mlbplays/-/mlbplays-2.2.2.tgz#5c6fff3439bb1276b743769baf099366a17fada8"
+  integrity sha1-XG//NDm7Ena3Q3abrwmTZqF/rag=
+  dependencies:
+    hoek "3.x.x"
+    insync "2.x.x"
+    wreck "7.x.x"
+
 move-concurrently@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/move-concurrently/-/move-concurrently-1.0.1.tgz#be2c005fda32e0b29af1f05d7c4b33214c701f92"
@@ -6415,6 +6486,13 @@ node-libs-browser@^2.0.0:
     url "^0.11.0"
     util "^0.11.0"
     vm-browserify "0.0.4"
+
+node-mlb-api@^0.0.2-6:
+  version "0.0.2-6"
+  resolved "https://registry.yarnpkg.com/node-mlb-api/-/node-mlb-api-0.0.2-6.tgz#2eee1867332d53a5c20e2c2276095cc8162555f4"
+  integrity sha512-RxAA+B/BLTvX9nE/v7I8nGl2gS8xuqaFm363d46rV2mN76Hh7hlntq67TZoynKm44Tashx3mIfqpkmyDt1CbPg==
+  dependencies:
+    request "^2.83.0"
 
 node-notifier@^5.2.1:
   version "5.4.0"
@@ -8442,7 +8520,7 @@ request-promise-native@^1.0.5:
     stealthy-require "^1.1.0"
     tough-cookie ">=2.3.3"
 
-request@^2.87.0:
+request@^2.83.0, request@^2.87.0:
   version "2.88.0"
   resolved "https://registry.yarnpkg.com/request/-/request-2.88.0.tgz#9c2fca4f7d35b592efe57c7f0a55e81052124fef"
   integrity sha512-NAqBSrijGLZdM0WZNsInLJpkJokL72XYjUpnB0iwsRgxh7dB6COrHnTBNwN0E+lHDAJzu7kLAkDeY08z2/A0hg==
@@ -8631,7 +8709,7 @@ sass-loader@7.1.0:
     pify "^3.0.0"
     semver "^5.5.0"
 
-sax@^1.2.4, sax@~1.2.4:
+sax@>=0.6.0, sax@^1.2.4, sax@~1.2.4:
   version "1.2.4"
   resolved "https://registry.yarnpkg.com/sax/-/sax-1.2.4.tgz#2816234e2378bddc4e5354fab5caa895df7100d9"
   integrity sha512-NqVDv9TpANUjFm0N8uM5GxL36UgKi9/atZw+x7YFnQ8ckwFGKrl4xX4yWtrey3UJm5nP1kUbnYgLopqWNSRhWw==
@@ -10203,6 +10281,22 @@ wrappy@1:
   resolved "https://registry.yarnpkg.com/wrappy/-/wrappy-1.0.2.tgz#b5243d8f3ec1aa35f1364605bc0d1036e30ab69f"
   integrity sha1-tSQ9jz7BqjXxNkYFvA0QNuMKtp8=
 
+wreck@5.x.x:
+  version "5.6.1"
+  resolved "https://registry.yarnpkg.com/wreck/-/wreck-5.6.1.tgz#aff003040013889d75619b5c71870dd2a8dd069a"
+  integrity sha1-r/ADBAATiJ11YZtccYcN0qjdBpo=
+  dependencies:
+    boom "2.x.x"
+    hoek "2.x.x"
+
+wreck@7.x.x:
+  version "7.2.1"
+  resolved "https://registry.yarnpkg.com/wreck/-/wreck-7.2.1.tgz#eecd11d0d91ea334d66bb3ec52315405da689158"
+  integrity sha1-7s0R0NkeozTWa7PsUjFUBdpokVg=
+  dependencies:
+    boom "3.x.x"
+    hoek "4.x.x"
+
 write-file-atomic@^2.1.0:
   version "2.4.2"
   resolved "https://registry.yarnpkg.com/write-file-atomic/-/write-file-atomic-2.4.2.tgz#a7181706dfba17855d221140a9c06e15fcdd87b9"
@@ -10235,6 +10329,19 @@ xml-name-validator@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/xml-name-validator/-/xml-name-validator-3.0.0.tgz#6ae73e06de4d8c6e47f9fb181f78d648ad457c6a"
   integrity sha512-A5CUptxDsvxKJEU3yO6DuWBSJz/qizqzJKOMIfUJHETbBw/sFaDxgd6fxm1ewUaM0jZ444Fc5vC5ROYurg/4Pw==
+
+xml2js@0.x.x:
+  version "0.4.19"
+  resolved "https://registry.yarnpkg.com/xml2js/-/xml2js-0.4.19.tgz#686c20f213209e94abf0d1bcf1efaa291c7827a7"
+  integrity sha512-esZnJZJOiJR9wWKMyuvSE1y6Dq5LCuJanqhxslH2bxM6duahNZ+HMpCLhBQGZkbX6xRf8x1Y2eJlgt2q3qo49Q==
+  dependencies:
+    sax ">=0.6.0"
+    xmlbuilder "~9.0.1"
+
+xmlbuilder@~9.0.1:
+  version "9.0.7"
+  resolved "https://registry.yarnpkg.com/xmlbuilder/-/xmlbuilder-9.0.7.tgz#132ee63d2ec5565c557e20f4c22df9aca686b10d"
+  integrity sha1-Ey7mPS7FVlxVfiD0wi35rKaGsQ0=
 
 xregexp@4.0.0:
   version "4.0.0"
